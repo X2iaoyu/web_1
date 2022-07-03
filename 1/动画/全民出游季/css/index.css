@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    height: 100%;
+    background: url(../images/f1_1.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.cloud img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.cloud img:nth-child(1){
+    animation: cloud 1s infinite alternate;
+    margin-left: -300px;
+    top: 20px;
+}
+
+.cloud img:nth-child(2){
+    animation: cloud 1s infinite alternate 0.2s;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.cloud img:last-child{
+    animation: cloud 1s infinite alternate 0.4s;
+    margin-left: -550px;
+    top: 200px;
+}
+
+/* 云动画 */
+@keyframes cloud {
+    to{
+        transform: translateX(20px);
+    }
+}
+
+/* 热气球 */
+.qiqiu img{
+    animation: qiqiu 1.5s infinite alternate;
+    position: absolute;
+    left: 50%;
+    top: 160px;
+    margin-left: -400px;
+}
+
+@keyframes qiqiu {
+    to{
+        transform: translateY(30px);
+    }
+}
+
+/* 小气球 */
+.xiaoqiqiu img{
+    animation: xiaoqiqiu 1.5s infinite alternate 0.2s;
+    position: absolute;
+    left: 50%;
+    top: 730px;
+}
+
+.xiaoqiqiu img:first-child{
+    margin-left: -400px;
+}
+
+.xiaoqiqiu img:nth-child(2){
+    animation: xiaoqiqiu 1.5s infinite alternate 0.4s;
+    margin-left: -200px;
+}
+
+.xiaoqiqiu img:last-child{
+    animation: xiaoqiqiu 1.5s infinite alternate 0.6s;
+    margin-left: 200px;
+}
+
+@keyframes xiaoqiqiu {
+    to{
+        transform: translateY(-30px);
+    }
+}
+
+/* 标题 */
+.main img{
+    position: absolute;
+    left: 50%;
+    top: 350px;
+}

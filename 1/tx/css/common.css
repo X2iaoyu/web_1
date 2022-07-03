@@ -1,0 +1,223 @@
+/* 版心 */
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 快捷导航 */
+.shortcut{
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper{
+    height: 52px;
+}
+
+.shortcut .wrapper ul li{
+    float: right;
+    line-height: 52px;
+}
+
+.shortcut .wrapper a{
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.shortcut .wrapper li:nth-child(1) a{
+    border: 0;
+}
+
+.shortcut .wrapper a span{
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+    height: 16px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+
+/* 头部 */
+.header{
+    margin: 30px auto;
+    height: 70px;
+}
+
+.logo{
+    float: left;
+    width: 207px;
+    height: 70px;
+}
+
+/* logo搜索引擎优化 */
+.logo h1{
+    width: 207px;
+    height: 70px;
+}
+
+.logo h1 a{
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    font-size: 0;
+}
+
+.nav{
+    float: left;
+    margin-left: 40px;
+    height: 70px;
+}
+
+.nav li{
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+}
+
+.nav li a{
+    padding-bottom: 7px;
+}
+
+.nav li a:hover{
+    color: #27b69a;
+    border-bottom: 1px solid #27b69a;
+}
+
+.search{
+    position: relative;
+    float: left;
+    margin-left: 34px;
+    margin-top: 24px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.search input{
+    padding-left: 30px;
+    width: 172px;
+    height: 28px;
+}
+
+.search input::placeholder{
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.search span{
+    position: absolute;
+    left: 2px;
+    top: 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/sprites.png);
+    background-position: -79px -69px;
+}
+
+.car{
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-top: 28px;
+    width: 23px;
+    height: 23px;
+    background-image: url(../images/sprites.png);
+    background-position: -119px -69px;
+}
+
+.car span{
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    width: 20px;
+	height: 15px;
+	background-color: #e26237;
+	border-radius: 8px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 13px;
+    color: #fff;
+}
+
+/* 版权 */
+
+.footer{
+    height: 342px;
+    background-color: #333333;
+}
+
+.footer .wrapper{
+    width: 1393px;
+}
+
+.footer .wrapper .top{
+    padding-top: 59px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+}
+
+.footer .wrapper .top .content{
+    margin: 0 auto;
+    padding: 0 38px 0;
+    width: 1240px;
+}
+
+.footer .top li{
+    float: left;
+    width: 195px;
+    height: 58px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer .top li:nth-child(2){
+    margin-left: 300px;
+}
+
+.footer .top li:last-child{
+    float: right;
+    margin-right: 38px;
+}
+
+.footer .top li::before{
+    vertical-align: middle;
+    display: inline-block;
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprites.png);
+}
+
+.footer .top li:nth-child(2)::before{
+    background-position: -130px 0;
+}
+
+.footer .top li:last-child::before{
+    background-position: -64px 0;
+}
+
+.footer .top li span{
+    margin-left: 14px;
+}
+
+.footer .buttom{
+    margin-top: 40px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .buttom a{
+    font-size: 14px;
+    color: #999;
+}
+
+.footer .buttom p{
+    margin-bottom: 20px;
+}
